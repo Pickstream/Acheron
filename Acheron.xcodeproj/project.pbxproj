@@ -21,7 +21,8 @@
 		D83B32AE23448E160006CB03 /* Pebble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B32AD23448E160006CB03 /* Pebble.swift */; };
 		D847A0F822857DC000A94232 /* Array+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A0F722857DC000A94232 /* Array+Acheron.swift */; };
 		D847A0FA22857EB200A94232 /* WeakSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A0F922857EB200A94232 /* WeakSet.swift */; };
-		D847A0FC228585DD00A94232 /* Collection+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A0FB228585DD00A94232 /* Collection+Acheron.swift */; };
+		D853EB8A253823670087DE95 /* CaseIterable+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = D853EB89253823670087DE95 /* CaseIterable+Acheron.swift */; };
+		D853EB8E25382A5B0087DE95 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D853EB8D25382A5B0087DE95 /* Screen.swift */; };
 		D858A915226E784800AD831F /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D858A914226E784800AD831F /* Anchor.swift */; };
 		D858A917226E785400AD831F /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D858A916226E785400AD831F /* Basket.swift */; };
 		D858A919226E785F00AD831F /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D858A918226E785F00AD831F /* Domain.swift */; };
@@ -38,6 +39,7 @@
 		D8CBC9C92265D6A800B7BBC5 /* NSMutableAttributedString+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBC9C82265D6A800B7BBC5 /* NSMutableAttributedString+Acheron.swift */; };
 		D8CBC9CB2265D70100B7BBC5 /* UILabel+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBC9CA2265D70100B7BBC5 /* UILabel+Acheron.swift */; };
 		D8CBC9CD2265D7D600B7BBC5 /* NSString+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBC9CC2265D7D600B7BBC5 /* NSString+Acheron.swift */; };
+		D8CC366124EF3E500017808F /* AESync.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC366024EF3E500017808F /* AESync.swift */; };
 		D8D47C3222ADD7860071DC0C /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D47C3122ADD7860071DC0C /* Node.swift */; };
 		D8D47C3422ADD7950071DC0C /* NodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D47C3322ADD7950071DC0C /* NodeView.swift */; };
 		D8D47C3622ADD83A0071DC0C /* NodeColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D47C3522ADD83A0071DC0C /* NodeColumn.swift */; };
@@ -69,7 +71,8 @@
 		D83B32AD23448E160006CB03 /* Pebble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pebble.swift; sourceTree = "<group>"; };
 		D847A0F722857DC000A94232 /* Array+Acheron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Acheron.swift"; sourceTree = "<group>"; };
 		D847A0F922857EB200A94232 /* WeakSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSet.swift; sourceTree = "<group>"; };
-		D847A0FB228585DD00A94232 /* Collection+Acheron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Acheron.swift"; sourceTree = "<group>"; };
+		D853EB89253823670087DE95 /* CaseIterable+Acheron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CaseIterable+Acheron.swift"; sourceTree = "<group>"; };
+		D853EB8D25382A5B0087DE95 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		D858A914226E784800AD831F /* Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
 		D858A916226E785400AD831F /* Basket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
 		D858A918226E785F00AD831F /* Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
@@ -86,6 +89,7 @@
 		D8CBC9C82265D6A800B7BBC5 /* NSMutableAttributedString+Acheron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Acheron.swift"; sourceTree = "<group>"; };
 		D8CBC9CA2265D70100B7BBC5 /* UILabel+Acheron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Acheron.swift"; sourceTree = "<group>"; };
 		D8CBC9CC2265D7D600B7BBC5 /* NSString+Acheron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Acheron.swift"; sourceTree = "<group>"; };
+		D8CC366024EF3E500017808F /* AESync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESync.swift; sourceTree = "<group>"; };
 		D8D47C3122ADD7860071DC0C /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		D8D47C3322ADD7950071DC0C /* NodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeView.swift; sourceTree = "<group>"; };
 		D8D47C3522ADD83A0071DC0C /* NodeColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeColumn.swift; sourceTree = "<group>"; };
@@ -181,7 +185,7 @@
 				D8E604E122327F91000E8AEA /* Utility */,
 				D83B32AC23448DD20006CB03 /* Pebbles */,
 				D858A913226E780500AD831F /* Loom */,
-				D8E604E422327FB8000E8AEA /* Widgets */,
+				D8E604E422327FB8000E8AEA /* Interface */,
 				D8E604E222327F98000E8AEA /* Global */,
 			);
 			path = Acheron;
@@ -192,8 +196,8 @@
 			children = (
 				D847A0F722857DC000A94232 /* Array+Acheron.swift */,
 				D8E604CF22327E2A000E8AEA /* CALayer+Acheron.swift */,
+				D853EB89253823670087DE95 /* CaseIterable+Acheron.swift */,
 				D8E604D122327E47000E8AEA /* CGPoint+Acheron.swift */,
-				D847A0FB228585DD00A94232 /* Collection+Acheron.swift */,
 				D830BB2523AF4C1100428A35 /* Comparable+Acheron.swift */,
 				D80367B0225915E400B0934C /* Date+Acheron.swift */,
 				D858A923226E856200AD831F /* Dictionary+Acheron.swift */,
@@ -215,6 +219,7 @@
 		D8E604E122327F91000E8AEA /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				D8CC366024EF3E500017808F /* AESync.swift */,
 				D81774A22314C0A600A49725 /* AETimer.swift */,
 				D8E604DC22327F22000E8AEA /* Pen.swift */,
 				D8E604DE22327F3E000E8AEA /* RGB.swift */,
@@ -235,7 +240,7 @@
 			name = Global;
 			sourceTree = "<group>";
 		};
-		D8E604E422327FB8000E8AEA /* Widgets */ = {
+		D8E604E422327FB8000E8AEA /* Interface */ = {
 			isa = PBXGroup;
 			children = (
 				D8D47C3022ADD7740071DC0C /* NodeView */,
@@ -243,9 +248,10 @@
 				D8AB61E12275039400415069 /* AEViewController.swift */,
 				D81497B82238F39F00436E00 /* ExpandableCell.swift */,
 				D81497B62238F39100436E00 /* ExpandableTableView.swift */,
+				D853EB8D25382A5B0087DE95 /* Screen.swift */,
 				D88B03D52245AB1F00CE6A5A /* TripWire.swift */,
 			);
-			name = Widgets;
+			name = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +292,7 @@
 		D8E604B822327C81000E8AEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Aepryus Software";
 				TargetAttributes = {
 					D8E604C022327C81000E8AEA = {
@@ -337,6 +343,7 @@
 				D8CBC9C92265D6A800B7BBC5 /* NSMutableAttributedString+Acheron.swift in Sources */,
 				D81497B72238F39100436E00 /* ExpandableTableView.swift in Sources */,
 				D830BB2623AF4C1100428A35 /* Comparable+Acheron.swift in Sources */,
+				D853EB8E25382A5B0087DE95 /* Screen.swift in Sources */,
 				D80367B1225915E400B0934C /* Date+Acheron.swift in Sources */,
 				D858A915226E784800AD831F /* Anchor.swift in Sources */,
 				D88B03D62245AB1F00CE6A5A /* TripWire.swift in Sources */,
@@ -347,6 +354,7 @@
 				D82B7D3224594B2200F9C4C4 /* UIButton+Acheron.swift in Sources */,
 				D858A920226E78A700AD831F /* SQLitePersist.swift in Sources */,
 				D858A917226E785400AD831F /* Basket.swift in Sources */,
+				D8CC366124EF3E500017808F /* AESync.swift in Sources */,
 				D81497BB2238F3D200436E00 /* AETableView.swift in Sources */,
 				D8E604D022327E2A000E8AEA /* CALayer+Acheron.swift in Sources */,
 				D8E604DB22327EEE000E8AEA /* UIViewController+Acheron.swift in Sources */,
@@ -362,9 +370,9 @@
 				D81774A32314C0A600A49725 /* AETimer.swift in Sources */,
 				D8D47C3222ADD7860071DC0C /* Node.swift in Sources */,
 				D8D47C3622ADD83A0071DC0C /* NodeColumn.swift in Sources */,
+				D853EB8A253823670087DE95 /* CaseIterable+Acheron.swift in Sources */,
 				D83A874423682F580083812E /* SafeSet.swift in Sources */,
 				D86225842310C7F20014020F /* SafeMap.swift in Sources */,
-				D847A0FC228585DD00A94232 /* Collection+Acheron.swift in Sources */,
 				D80548CA22AFD39C008F021E /* NodeHeader.swift in Sources */,
 				D8CBC9CD2265D7D600B7BBC5 /* NSString+Acheron.swift in Sources */,
 				D81497B92238F39F00436E00 /* ExpandableCell.swift in Sources */,
@@ -404,6 +412,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -468,6 +477,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -513,7 +523,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Acheron/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -541,7 +551,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Acheron/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

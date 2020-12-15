@@ -18,7 +18,7 @@ public enum DomainAction: String {
 class NotFound {}
 
 public protocol Packable where Self:NSObject {
-	init(_: String)
+	init?(_: String)
 	func pack() -> String
 }
 
@@ -249,7 +249,12 @@ open class Domain: NSObject {
 		var attributes: [String:Any] = [:]
 		
 		for keyPath in properties {
-			let value = self.value(forKeyPath: keyPath) as Any?
+			let value: Any?
+			if responds(to: NSSelectorFromString(keyPath)) {
+				value = self.value(forKeyPath: keyPath)
+			} else {
+				value = self.value(forKeyPath: "\(keyPath)Proxy")
+			}
 			let unloader = self.unloader(keyPath:keyPath)
 			if let unloader = unloader {
 				attributes[keyPath] = unloader(value!)
@@ -332,7 +337,13 @@ open class Domain: NSObject {
 				}
 			}
 			
-			if value != nil {setValue(value, forKey: keyPath)}
+			if value != nil {
+				if responds(to: NSSelectorFromString(keyPath)) {
+					setValue(value, forKey: keyPath)
+				} else {
+					setValue(value, forKey: "\(keyPath)Proxy")
+				}
+			}
 			else {
 				if let currentValue = self.value(forKeyPath: keyPath) as Any? {
 					if isOptional(currentValue) {
@@ -364,7 +375,8 @@ open class Domain: NSObject {
 					}
 				} else if let cls = arrayClassForKeyPath(keyPath) as? Packable.Type {
 					for package in children as! [String] {
-						array.append(cls.init(package))
+						guard let row = cls.init(package) else { continue }
+						array.append(row)
 					}
 				} else {
 					for string in children as! [String] {
